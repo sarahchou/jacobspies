@@ -19,11 +19,14 @@ p{
 .center {
     display: flex;
     justify-content: center;
+    flex-wrap: wrap;
 }
 
 .space-around {
     display: flex;
     justify-content: space-around;
+    flex-wrap: wrap;
+
 }
 
 .button {
@@ -40,20 +43,27 @@ p{
 
 a:link {
     color: #D2691E;
+    text-decoration: none;
   }
   
   /* visited link */
   a:visited {
     color: #A52A2A;
+    text-decoration: none;
+
   }
   
   /* mouse over link */
   a:hover {
     color: orange;
+    text-decoration: none;
+
   }
   
   /* selected link */
   a:active {
     color: orangered;
+    text-decoration: none;
+
   }
 
